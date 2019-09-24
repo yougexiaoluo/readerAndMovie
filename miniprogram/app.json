@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "此一刻",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#ff7b00",
+    "list": [
+      {
+        "text": "文章",
+        "pagePath": "pages/article/article",
+        "iconPage": "",
+        "selectIconPage": ""
+      },
+      {
+        "text": "影视",
+        "pagePath": "pages/movie/movie",
+        "iconPage": "",
+        "selectIconPage": ""
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,30 @@
+@import '../../style/global.wxss';
+
+page {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.article_item {
+  background: #fff;
+  padding: 15px 14px;
+}
+
+.article_top .avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  background: red;
+}
+
+.article_content {
+  line-height: 1.5;
+}
+
+.article_item:not(:last-child) {
+  margin-bottom: 40rpx;
+}
+
+.article_img {
+  background: #964;
+}

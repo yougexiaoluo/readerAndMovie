@@ -1,0 +1,11 @@
+<view class='container BG_BLUE flex_middle'>
+  <view class='avatar radius'>
+    <open-data type="userAvatarUrl" />
+  </view>
+  <view class='user_name'>
+    <open-data type="userNickName" />
+  </view>
+  <view class='open_trip'>
+    <button bindtap='openMyTrip' hover-class='none'>开启旅行</button>
+  </view>
+</view>

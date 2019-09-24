@@ -1,0 +1,47 @@
+.BG_BLUE {
+  background-color: #b3d4db;
+}
+.BG_GRAY {
+  background-color: #f8f8f8;
+}
+.color {
+  color: #666;
+}
+
+.contentFont {
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+.titleFont {
+  color: #333;
+  font-size: 20px;
+}
+
+.flex_middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flex_column_middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radius {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.margin_bottom_15 {
+  margin-bottom: 15px;
+}
