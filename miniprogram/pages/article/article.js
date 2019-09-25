@@ -1,18 +1,23 @@
-// miniprogram/pages/article/article.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-
-  },
+  data: {},
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.request({
+      url: 'https://yougexiaoluo.github.io/readerAndMovie/mock/posts-data.json',
+      success(data){
+        this.setData({
+          postsList: data.data
+        })
+        console.log(data)
+      }
+    })
   },
 
   /**

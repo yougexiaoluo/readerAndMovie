@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "articleItem": "/components/articleItem/index"
+  },
   "navigationBarTitleText": "最新资讯"
 }

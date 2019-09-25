@@ -1,0 +1,35 @@
+@import '../../style/global.wxss';
+
+.article_item {
+  background: #fff;
+  border: 2px solid #ededed;
+  padding: 15px 14px;
+}
+
+.article_top .avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.article_content {
+  line-height: 1.5;
+  margin-bottom: 30rpx;
+}
+
+.article_item:not(:last-child) {
+  margin-bottom: 40rpx;
+}
+
+.reading_and_comment {
+  color: #666;
+  font-size: 16px;
+}
+
+.comment {
+  margin-right: 30px;
+}
+
+.reading_volume image, .comment image {
+  margin-right: 8px;
+}
