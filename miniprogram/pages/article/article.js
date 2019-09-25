@@ -15,7 +15,7 @@ Page({
         // this.setData({
         //   postsList: data.data
         // })
-        // console.log(JSON.parse(data.data))
+        console.log(JSON.parse(data.data))
       }
     })
   },
