@@ -12,10 +12,10 @@ Page({
     wx.request({
       url: 'https://yougexiaoluo.github.io/readerAndMovie/mock/posts-data.json',
       success(data){
-        this.setData({
-          postsList: data.data
-        })
-        console.log(data)
+        // this.setData({
+        //   postsList: data.data
+        // })
+        console.log(JSON.parse('{a: 10}'))
       }
     })
   },

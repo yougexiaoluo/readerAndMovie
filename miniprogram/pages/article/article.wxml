@@ -15,7 +15,7 @@
     </swiper>
   </view>
   <!-- 文章列表 -->
-  <block wx:for='{{postsList}}'>
+  <!-- <block wx:for='{{postsList}}'>
     <articleItem {{...item}}/>
-  </block>
+  </block> -->
 </view>
