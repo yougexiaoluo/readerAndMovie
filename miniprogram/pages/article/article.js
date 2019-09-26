@@ -9,15 +9,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    wx.request({
-      url: 'https://yougexiaoluo.github.io/readerAndMovie/mock/posts-data.json',
-      success(data) {
-        // this.setData({
-        //   postsList: data.data
-        // })
-        console.log(JSON.parse(data.data))
-      }
-    })
+    // wx.request({
+    //   url: 'https://yougexiaoluo.github.io/readerAndMovie/mock/posts-data.json',
+    //   success(data) {
+    //     // this.setData({
+    //     //   postsList: data.data
+    //     // })
+    //     console.log(JSON.parse(data.data))
+    //   }
+    // })
   },
 
   /**
