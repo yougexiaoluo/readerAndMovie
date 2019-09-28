@@ -2,8 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/movie/movie",
-    "pages/article/article",
-    "custom-tab-bar/index"
+    "pages/article/article"
   ],
   "window": {
     "backgroundColor": "#dddddd",
@@ -13,7 +12,6 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "custom": true,
     "color": "#757575",
     "selectedColor": "#2852a8",
     "backgroundColor": "#e5e5e5",
