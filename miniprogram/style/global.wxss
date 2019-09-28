@@ -37,6 +37,12 @@
   align-items: center;
 }
 
+.column_middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .radius {
   border-radius: 50%;
   overflow: hidden;

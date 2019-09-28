@@ -1,7 +1,7 @@
 <view class='article_item'>
   <view class='article_top flex_column_middle margin_bottom_15'>
     <view class='avatar radius'>
-      <image class='img_brace_up' lazy-load src='{{data.avatar}}' mode='widthFix' alt='图片加载失败' />
+      <image class='img_brace_up' src='{{data.avatar}}' mode='widthFix' alt='图片加载失败' />
     </view>
     <view class='publish_time color'>
       <text>{{data.data}}</text>
@@ -11,18 +11,18 @@
     <text>{{data.title}}</text>
   </view>
   <view class='article_img margin_bottom_15'>
-    <image class='img_brace_up' lazy-load src='{{data.imgSrc}}' lazy-load mode='widthFix' alt='图片加载失败' />
+    <image class='img_brace_up' src='{{data.imgSrc}}' lazy-load mode='widthFix' alt='图片加载失败' />
   </view>
   <view class='article_content contentFont'>
     <text>{{data.content}}</text>
   </view>
   <view class='reading_and_comment flex_column_middle'>
     <view class='comment flex_column_middle'>
-      <image style='width: 40rpx;' lazy-load src='https://yougexiaoluo.github.io/readerAndMovie/images/icon/chat.png' mode='widthFix' />
+      <image style='width: 40rpx;' src='https://yougexiaoluo.github.io/readerAndMovie/images/icon/chat.png' mode='widthFix' />
       <text>{{data.reading}}</text>
     </view>
     <view class='reading_volume flex_column_middle'>
-      <image style='width: 40rpx;' lazy-load src='https://yougexiaoluo.github.io/readerAndMovie/images/icon/view.png' mode='widthFix' />
+      <image style='width: 40rpx;' src='https://yougexiaoluo.github.io/readerAndMovie/images/icon/view.png' mode='widthFix' />
       <text>{{data.collection}}</text>
     </view>
   </view>

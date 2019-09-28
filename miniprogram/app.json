@@ -2,19 +2,22 @@
   "pages": [
     "pages/index/index",
     "pages/movie/movie",
-    "pages/article/article"
+    "pages/article/article",
+    "custom-tab-bar/index"
   ],
   "window": {
-    "backgroundColor": "#000000",
+    "backgroundColor": "#dddddd",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#405f80",
     "navigationBarTitleText": "此一刻",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "custom": true,
     "color": "#757575",
     "selectedColor": "#2852a8",
     "backgroundColor": "#e5e5e5",
+    "borderStyle": "white",
     "list": [
       {
         "text": "文章",

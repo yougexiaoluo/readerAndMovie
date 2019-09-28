@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    postsList: []  // 文章列表
+    postsList: [] // 文章列表
   },
 
   /**
@@ -14,13 +14,13 @@ Page({
     wx.request({
       url: 'https://yougexiaoluo.github.io/readerAndMovie/mock/posts-data.json',
       success: (data) => {
-       if (data.data.code == 200) {
-         this.setData({
-           postsList: data.data.data
-         })
-       } else {
-         throw Error('获取数据失败')
-       }
+        if (data.data.code == 200) {
+          this.setData({
+            postsList: data.data.data
+          })
+        } else {
+          throw Error('获取数据失败')
+        }
       }
     })
   },
@@ -42,8 +42,12 @@ Page({
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function() {
-
+  onShow: function() {
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0 // 数字是当前页面在tabbar的索引
+      })
+    }
   },
 
   /**
