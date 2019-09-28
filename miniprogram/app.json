@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/movie/movie",
-    "pages/article/article"
+    "pages/article/article",
+    "pages/reader/index"
   ],
   "window": {
     "backgroundColor": "#dddddd",

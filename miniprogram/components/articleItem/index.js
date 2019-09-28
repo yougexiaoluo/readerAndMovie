@@ -20,7 +20,15 @@ Component({
   /**
    * 组件的方法列表
    */
-  methods: {
 
+  methods: {
+    // 文章详情
+    articleDetail: function(e) {
+      let { id } = e.currentTarget.dataset
+      wx.navigateTo({
+        // url: '/pages/reader/index?data=' + JSON.stringify(this.data.data)
+        url: '/pages/reader/index?id=' + id
+      })
+    }
   }
 })

@@ -1,0 +1,25 @@
+<view class='article_wrapper'>
+  <!-- 海报 -->
+  <view class='poster' style='background-image: url({{detail.imgSrc}})'></view>
+  <view class='article_detail'>
+    <!-- 用户信息 -->
+    <view class='user_info flex_column_middle'>
+      <image src='{{detail.avatar}}' mode='widthFix' />
+      <text class='author color'>{{detail.author}}</text>
+      <text class='publish_time color'>发表于: {{detail.dataTime}}</text>
+    </view>
+    <view class='title'>{{detail.title}}</view>
+    <!-- 分享与收藏 -->
+    <view class='collection_and_share'>
+      <image class='collection' src='/images/icon/collection-anti.png' mode='widthFix' />
+      <image class='share' src='/images/icon/share-anti.png' mode='widthFix' />
+    </view>
+    <!-- 文章详情 -->
+    <view class='content'>
+      <!-- <view class='content_title color' style='font-size: 20px;'>1 引言</view> -->
+      <view class='contentFont'>
+       {{detail.detail}}
+      </view>
+    </view>
+  </view>
+</view>

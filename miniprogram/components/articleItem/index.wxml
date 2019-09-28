@@ -7,7 +7,7 @@
       <text>{{data.data}}</text>
     </view>
   </view>
-  <view class='article_title titleFont margin_bottom_15'>
+  <view class='article_title titleFont margin_bottom_15' bindtap='articleDetail' data-id='{{data.postId}}'>
     <text>{{data.title}}</text>
   </view>
   <view class='article_img margin_bottom_15'>

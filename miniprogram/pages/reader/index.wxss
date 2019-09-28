@@ -1,0 +1,73 @@
+@import '../../style/global.wxss';
+
+.article_wrapper {
+  padding-bottom: 50px;
+}
+
+.article_detail {
+  padding: 0 30rpx;
+}
+
+.poster {
+  width: 100vw;
+  height: 200px;
+  /* background: url('https://yougexiaoluo.github.io/readerAndMovie/images/post/bl.png') no-repeat center center/100% 100%; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.user_info {
+  padding: 20rpx 0 32rpx;
+}
+
+.author {
+  font-size: 16px;
+  margin: 0 30rpx;
+}
+
+.title {
+  color: #4b556c;
+  font-size: 24px;
+}
+
+.user_info image {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.collection_and_share {
+  width: 85%;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 80rpx auto;
+  position: relative;
+}
+
+.collection_and_share image {
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.collection {
+  right: 60px;
+}
+
+.share {
+  right: 0;
+}
+
+.content_title {
+  margin-bottom: 30rpx;
+}
+
+.contentFont {
+  text-align: justify;
+  line-height: 1.6em;
+  letter-spacing: 2px;
+  text-indent: 2em;
+}
